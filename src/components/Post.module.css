@@ -110,7 +110,6 @@
   background: var(--green-500);
   color: var(--white);
   font-weight: bold;
-  cursor: pointer;
   transition: background-color 0.2s;
 }
 
@@ -120,4 +119,7 @@
 
 .commentForm button[type=submit]:focus {
   background: var(--green-300)
+}
+.commentList {
+  margin-top: 2rem;
 }
